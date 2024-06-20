@@ -1,7 +1,7 @@
 # <h1 align=left> DATA LOGIC / NYC Taxis & Carbon Emission </h1>
 
 <p align="center">
-<img src="images\datalogic banner.png" height=220>
+<img src="images\datalogic banner.png" height=230>
 </p>
 
 
@@ -93,7 +93,7 @@ Método de obtención: Descarga de los archivos (datos estáticos)
 
 ## STACK TECNOLÓGICO
 
-<img src="https://img.shields.io/badge/Python-black?style=flat&logo=python" height="30"> <img src="https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas" height="30"> <img src="https://img.shields.io/badge/Numpy-black?style=flat&logo=Numpy" height="30"> <img src="https://img.shields.io/badge/ScikitLearn-black?style=flat&logo=Scikit-Learn" height="30"> <img src="https://img.shields.io/badge/FastAPI-black?style=flat&logo=fastapi" height="30"> <img src="https://img.shields.io/badge/BeautifulSoup-black?style=flat&logo=coffeescript" height="30"> <img src="https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi" height="30"><img src="https://img.shields.io/badge/Google%20cloud-black?style=flat&logo=Google%20cloud" height="30"> <img src="https://img.shields.io/badge/Big%20query-black?style=flat&logo=big%20query" height="30"> <img src="https://img.shields.io/badge/Cloud%20functions-black?style=flat&logo=cloud%20functions" height="30">
+<img src="https://img.shields.io/badge/Python-black?style=flat&logo=python" height="20"> <img src="https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas" height="20"> <img src="https://img.shields.io/badge/Numpy-black?style=flat&logo=Numpy" height="20"> <img src="https://img.shields.io/badge/ScikitLearn-black?style=flat&logo=Scikit-Learn" height="20"> <img src="https://img.shields.io/badge/FastAPI-black?style=flat&logo=fastapi" height="20"> <img src="https://img.shields.io/badge/BeautifulSoup-black?style=flat&logo=coffeescript" height="20"> <img src="https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi" height="20"><img src="https://img.shields.io/badge/Google%20cloud-black?style=flat&logo=Google%20cloud" height="20"> <img src="https://img.shields.io/badge/Big%20query-black?style=flat&logo=big%20query" height="20"> <img src="https://img.shields.io/badge/Cloud%20functions-black?style=flat&logo=cloud%20functions" height="20">
 
 
 # <h3 align=left>**`PYTHON`**</h3>
@@ -151,7 +151,7 @@ Power BI se conectará directamente a BigQuery para la creación de paneles inte
 </br>
 
 <p align="left">
-<img src="images\arquitectura.png" height=250>
+<img src="images\arquitectura.png" height=290>
 </p>
 
 
