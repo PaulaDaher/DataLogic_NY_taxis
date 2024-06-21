@@ -20,7 +20,7 @@
 - [Descripción del proyecto](#descripción-del-proyecto)
 - [Objectivos](#objetivos)
 - [Alcance del proyecto](#alcance-del-proyecto)
-- [Arquitectura del proyecto](#arquitectura-del-proyecto)
+- [Fuentes de datos](#fuentes-de-datos)
 - [Stack tecnológico](#stack-tecnológico)
 - [Flujo de datos](#flujo-de-datos)
 - [Riesgos del proyecto](#riesgos-del-proyecto)
@@ -67,9 +67,8 @@ Realizaremos un análisis exhaustivo de la oferta automotriz actual, evaluando l
 
 </br></br>
 
-# ARQUITECTURA DEL PROYECTO
 
-## FUENTES DE DATOS 
+# FUENTES DE DATOS 
 
 - **Taxis:** Nuestra principal fuente de datos viene dada por el TLC, que son las siglas de Comisión de taxi y limusinas de la ciudad de Nueva York. Es la agencia responsable de la concesión de licencias y la regulación de los taxis con medallón amarillo, los vehículos de alquiler, las furgonetas de cercanías y los vehículos de para tránsito de la ciudad de Nueva York. [Link](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)  
 Método de obtención: Web Scraping.
@@ -89,7 +88,9 @@ Método de obtención: Descarga de los archivos (datos estáticos)
 
 > *Si quieres saber más de la selección de datasets puedes visitar: [Motivo de elección de datasets](eleccion_datasets.md)*
 
-</br>
+</br></br>
+
+# ARQUITECTURA DEL PROYECTO
 
 ## STACK TECNOLÓGICO
 
