@@ -38,7 +38,11 @@
 🌳🤝📈 En **DataLogic** nos especializamos en proyectos de **ciencia de datos** para ayudar a las empresas a **transicionar hacia estrategias sostenibles y respetuosas con el medio ambiente**. Utilizando análisis avanzados y modelos predictivos, proporcionamos soluciones que optimizan la eficiencia operativa, reducen la huella de carbono y promueven la innovación ambiental. 
 
 En respuesta a la creciente necesidad de sostenibilidad y eficiencia operativa en el transporte urbano de Nueva York, nuestra empresa consultora presenta una **propuesta analítica para la posible implementación de vehículos eléctricos (VE) en la flota de transporte de pasajeros**. Este proyecto estratégico se enfoca en la reducción de emisiones contaminantes y niveles de ruido y mejora de la competitividad en un mercado que valora la innovación y la responsabilidad ambiental.   
-   
+</br>
+<p align="left">
+<img src="images\portada taxi.png" height=230>
+</p>
+
 </br></br>
 
 # OBJETIVOS
