@@ -1,0 +1,47 @@
+Brand,Model,model_year,vehicle_class,vehicle_type,engine_size_L,engine_cylinder,transmission_type,Combined (mpg),CO2 emissions (g/km)
+Chrysler,Pacifica,2024,Minivan,Electric,3.6,6,A9,27,249
+Chrysler,Pacifica AWD,2024,Minivan,Electric,3.6,6,A9,24,279
+Ford,Escape,2024,SUV,Electric,1.5,3,A8,35,187
+Ford,Escape AWD,2024,SUV,Electric,1.5,3,A8,34,197
+Ford,Escape AWD,2024,SUV,Electric,2.0,4,A8,31,213
+Ford,Escape Hybrid,2024,SUV,Hybrid,2.5,4,AV,47,140
+Ford,Escape Hybrid AWD,2024,SUV,Hybrid,2.5,4,AV,47,140
+Ford,Mustang,2024,Subcompact,Electric,2.3,4,A10,31,214
+Ford,Mustang (Performance Pack),2024,Subcompact,Electric,2.3,4,AS10,29,228
+Ford,Mustang,2024,Subcompact,Electric,5.0,8,AS10,22,307
+Ford,Mustang (Stop-Start),2024,Subcompact,Electric,5.0,8,AS10,22,296
+Ford,Mustang,2024,Subcompact,Electric,5.0,8,M6,20,321
+Ford,Mustang (Stop-Start),2024,Subcompact,Electric,5.0,8,M6,22,306
+Ford,Mustang Dark Horse,2024,Subcompact,Electric,5.0,8,AS10,20,326
+Ford,Mustang Dark Horse,2024,Subcompact,Electric,5.0,8,M6,20,333
+Honda,Accord,2024,Full-size,Electric,1.5,4,AV,39,171
+Honda,Accord Hybrid Sport/Touring,2024,Mid-size,Hybrid,2.0,4,AV,53,124
+Kia,Niro,2024,SUV,Electric,1.6,4,AM6,59,112
+Kia,Niro FE,2024,SUV,Electric,1.6,4,AM6,64,104
+Nissan,Altima AWD,2024,Mid-size,Electric,2.5,4,AV,36,187
+Nissan,Altima AWD SR/Platinum,2024,Mid-size,Electric,2.5,4,AV8,35,191
+Toyota,Camry SE,2024,Mid-size,Electric,2.5,4,AS8,38,174
+Toyota,Camry XSE V6/TRD,2024,Mid-size,Electric,3.5,6,AS8,31,215
+Toyota,Camry AWD SE,2024,Mid-size,Electric,2.5,4,AS8,34,192
+Toyota,Camry AWD XSE,2024,Mid-size,Electric,2.5,4,AS8,34,195
+Toyota,Camry Hybrid LE,2024,Mid-size,Hybrid,2.5,4,AV6,58,113
+Toyota,Camry Hybrid SE/XLE/XSE,2024,Mid-size,Hybrid,2.5,4,AV6,55,121
+Toyota,Crown AWD,2024,Mid-size,Electric,2.4,4,AS6,36,182
+Toyota,Crown AWD,2024,Mid-size,Electric,2.5,4,AV,50,133
+Toyota,Grand Highlander AWD Limited,2024,SUV,Electric,2.4,4,AS8,26,249
+Toyota,Grand Highlander AWD XLE,2024,SUV,Electric,2.4,4,AS8,28,236
+Toyota,Grand Highlander Hybrid AWD Limited,2024,SUV,Hybrid,2.5,4,AV6,40,161
+Toyota,Grand Highlander Hybrid AWD XLE,2024,SUV,Hybrid,2.5,4,AV6,40,161
+Toyota,Grand Highlander Platinum Hybrid MAX AWD,2024,SUV,Hybrid,2.4,4,AS6,32,206
+Toyota,Highlander AWD,2024,SUV,Electric,2.4,4,AS8,29,232
+Toyota,Highlander Hybrid AWD,2024,SUV,Hybrid,2.5,4,AV,42,158
+Toyota,Highlander Hybrid AWD Limited/Platinum,2024,SUV,Hybrid,2.5,4,AV,42,156
+Toyota,Prius AWD,2024,Mid-size,Electric,2.0,4,AV,59,111
+Toyota,RAV4 AWD,2024,SUV,Electric,2.5,4,AS8,33,199
+Toyota,RAV4 AWD (Stop/Start),2024,SUV,Electric,2.5,4,AS8,35,187
+Toyota,RAV4 AWD LE,2024,SUV,Electric,2.5,4,AS8,36,184
+Toyota,RAV4 Hybrid AWD,2024,SUV,Hybrid,2.5,4,AV,47,139
+Toyota,RAV4 Hybrid AWD Woodland Edition,2024,SUV,Hybrid,2.5,4,AV,44,149
+Toyota,Sienna,2024,Minivan,Electric,2.5,4,AV,43,153
+Toyota,Sienna AWD,2024,Minivan,Electric,2.5,4,AV,42,158
+Toyota,Venza AWD,2024,SUV,Electric,2.5,4,AV,46,141

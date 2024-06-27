@@ -1,0 +1,74 @@
+Brand,Model,model_year,vehicle_class,vehicle_type,range_km,engine_size_L,engine_cylinder,transmission_type,Combined (mpg)
+Chrysler,Pacifica Hybrid,2022.0,Van,Plug-in Hybrid Electric,32.0,3.6,6,Auto,30
+Ford,Escape AWD HEV,2022.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,40
+Ford,Escape FWD HEV,2022.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,41
+Ford,Escape FWD PHEV,2022.0,SUV,Plug-in Hybrid Electric,37.0,2.5,4,Auto,41
+Ford,Mustang Mach-E AWD,2022.0,SUV,Electric,224.0,0.0,0,Auto,0
+Ford,Mustang Mach-E AWD California Route 1,2022.0,SUV,Electric,312.0,0.0,0,Auto,0
+Ford,Mustang Mach-E AWD Extended,2022.0,SUV,Electric,277.0,0.0,0,Auto,0
+Ford,Mustang Mach-E GT AWD,2022.0,SUV,Electric,270.0,0.0,0,Auto,0
+Ford,Mustang Mach-E GT Performance,2022.0,SUV,Electric,260.0,0.0,0,Auto,0
+Ford,Mustang Mach-E RWD,2022.0,SUV,Electric,247.0,0.0,0,Auto,0
+Ford,Mustang Mach-E RWD California Route 1,2022.0,SUV,Electric,314.0,0.0,0,Auto,0
+Ford,Mustang Mach-E RWD Extended,2022.0,SUV,Electric,303.0,0.0,0,Auto,0
+Honda,Accord,2022.0,Sedan/Wagon,Hybrid Electric,0.0,2.0,4,Auto,47
+Honda,Accord Sport/Touring,2022.0,Sedan/Wagon,Hybrid Electric,0.0,2.0,4,Auto,43
+Hyundai,Ioniq 5 AWD (Long Range),2022.0,SUV,Electric,256.0,0.0,0,Auto,0
+Hyundai,Ioniq 5 RWD,2022.0,SUV,Electric,220.0,0.0,0,Auto,0
+Hyundai,Ioniq 5 RWD (Long Range),2022.0,SUV,Electric,303.0,0.0,0,Auto,0
+Kia,Niro,2022.0,Sedan/Wagon,Hybrid Electric,0.0,1.6,4,Auto,49
+Kia,Niro Electric,2022.0,Sedan/Wagon,Electric,239.0,0.0,0,Auto,0
+Kia,Niro FE,2022.0,Sedan/Wagon,Hybrid Electric,0.0,1.6,4,Auto,50
+Kia,Niro Plug-in Hybrid,2022.0,Sedan/Wagon,Plug-in Hybrid Electric,26.0,1.6,4,Auto,46
+Kia,Niro Touring,2022.0,Sedan/Wagon,Hybrid Electric,0.0,1.6,4,Auto,43
+Tesla,Model 3 RWD,2022.0,Sedan/Wagon,Electric,272.0,0.0,0,Auto,0
+Toyota,Avalon Hybrid ,2022.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,43
+Toyota,Avalon Hybrid XLE,2022.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,44
+Toyota,Camry Hybrid LE,2022.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,52
+Toyota,Camry Hybrid SE/XLE/XSE,2022.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,46
+Toyota,Highlander Hybrid,2022.0,SUV,Hybrid Electric,0.0,2.5,4,Auto,36
+Toyota,Highlander Hybrid AWD,2022.0,SUV,Hybrid Electric,0.0,2.5,4,Auto,35
+Toyota,Highlander Hybrid AWD LTD/PLAT,2022.0,SUV,Hybrid Electric,0.0,2.5,4,Auto,35
+Toyota,Prius,2022.0,Sedan/Wagon,Hybrid Electric,0.0,1.8,4,Auto,52
+Toyota,Prius AWD,2022.0,Sedan/Wagon,Hybrid Electric,0.0,1.8,4,Auto,49
+Toyota,Prius Eco,2022.0,Sedan/Wagon,Hybrid Electric,0.0,1.8,4,Auto,56
+Toyota,Prius Prime,2022.0,Sedan/Wagon,Plug-in Hybrid Electric,25.0,1.8,4,Auto,54
+Toyota,RAV4 Hybrid AWD,2022.0,SUV,Hybrid Electric,0.0,2.5,4,Auto,40
+Toyota,RAV4 Prime AWD,2022.0,Sedan/Wagon,Plug-in Hybrid Electric,42.0,2.5,4,Auto,38
+Toyota,Sienna AWD,2022.0,Van,Hybrid Electric,0.0,2.5,4,Auto,35
+Toyota,Venza AWD,2022.0,SUV,Hybrid Electric,0.0,2.5,4,Auto,39
+Chrysler,Pacifica Hybrid,2021.0,Van,Plug-in Hybrid Electric,32.0,3.6,6,Auto,30
+Ford,Escape AWD HEV,2021.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,40
+Ford,Escape FWD HEV,2021.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,41
+Ford,Escape FWD PHEV,2021.0,SUV,Plug-in Hybrid Electric,37.0,2.5,4,Auto,40
+Ford,Mustang Mach-E AWD,2021.0,Sedan/Wagon,Electric,211.0,0.0,0,Auto,0
+Ford,Mustang Mach-E AWD Extended,2021.0,Sedan/Wagon,Electric,270.0,0.0,0,Auto,0
+Ford,Mustang Mach-E GT AWD,2021.0,Sedan/Wagon,Electric,270.0,0.0,0,Auto,0
+Ford,Mustang Mach-E GT AWD,2021.0,Sedan/Wagon,Electric,260.0,0.0,0,Auto,0
+Ford,Mustang Mach-E RWD,2021.0,Sedan/Wagon,Electric,230.0,0.0,0,Auto,0
+Ford,Mustang Mach-E RWD California Route 1,2021.0,Sedan/Wagon,Electric,305.0,0.0,0,Auto,0
+Ford,Mustang Mach-E RWD Extended,2021.0,Sedan/Wagon,Electric,300.0,0.0,0,Auto,0
+Honda,Accord,2021.0,Sedan/Wagon,Hybrid Electric,0.0,2.0,4,Auto,48
+Honda,Accord Sport/Touring,2021.0,Sedan/Wagon,Hybrid Electric,0.0,2.0,4,Auto,43
+Kia,Niro,2021.0,Sedan/Wagon,Hybrid Electric,0.0,1.6,4,Auto,49
+Kia,Niro Electric,2021.0,Sedan/Wagon,Electric,239.0,0.0,0,Auto,0
+Kia,Niro FE,2021.0,Sedan/Wagon,Hybrid Electric,0.0,1.6,4,Auto,50
+Kia,Niro Plug-in Hybrid,2021.0,Sedan/Wagon,Plug-in Hybrid Electric,26.0,1.6,4,Auto,46
+Kia,Niro Touring,2021.0,Sedan/Wagon,Hybrid Electric,0.0,1.6,4,Auto,43
+Tesla,Model Y Long Range AWD,2021.0,SUV,Electric,326.0,0.0,0,Auto,0
+Toyota,Avalon Hybrid,2021.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,43
+Toyota,Avalon Hybrid XLE,2021.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,44
+Toyota,Camry Hybrid LE,2021.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,52
+Toyota,Camry Hybrid SE/XLE/XSE,2021.0,Sedan/Wagon,Hybrid Electric,0.0,2.5,4,Auto,46
+Toyota,Highlander Hybrid,2021.0,SUV,Hybrid Electric,0.0,2.5,4,Auto,36
+Toyota,Highlander Hybrid AWD,2021.0,SUV,Hybrid Electric,0.0,2.5,4,Auto,35
+Toyota,Highlander Hybrid AWD LTD/PLAT,2021.0,SUV,Hybrid Electric,0.0,2.5,4,Auto,35
+Toyota,Prius,2021.0,Sedan/Wagon,Hybrid Electric,0.0,1.8,4,Auto,52
+Toyota,Prius AWD,2021.0,Sedan/Wagon,Hybrid Electric,0.0,1.8,4,Auto,49
+Toyota,Prius Eco,2021.0,Sedan/Wagon,Hybrid Electric,0.0,1.8,4,Auto,56
+Toyota,Prius Prime,2021.0,Sedan/Wagon,Plug-in Hybrid Electric,25.0,1.8,4,Auto,54
+Toyota,RAV4 Hybrid AWD,2021.0,SUV,Hybrid Electric,0.0,2.5,4,Auto,40
+Toyota,RAV4 Prime AWD,2021.0,Sedan/Wagon,Plug-in Hybrid Electric,42.0,2.5,4,Auto,38
+Toyota,Sienna,2021.0,Van,Hybrid Electric,0.0,2.5,4,Auto,36
+Toyota,Sienna AWD,2021.0,Van,Hybrid Electric,0.0,2.5,4,Auto,35
+Toyota,Venza AWD,2021.0,SUV,Hybrid Electric,0.0,2.5,4,Auto,39

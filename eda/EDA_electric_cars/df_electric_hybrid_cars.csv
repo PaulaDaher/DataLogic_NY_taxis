@@ -1,0 +1,24 @@
+Brand,Model,model_year,vehicle_class,vehicle_type,engine_size_L,engine_cylinder,transmission_type,price_dollar
+Kia,Niro Plug-in Hybrid,2022,Sedan wagon,Plug-in Hybrid Electric,1.6,4,Auto,36000
+Kia,Niro Touring,2022,Sedan wagon,Hybrid,1.6,4,Auto,31000
+Toyota,Avalon Hybrid ,2022,Sedan,Hybrid,2.5,4,Auto,42000
+Toyota,Prius AWD,2022,Sedan wagon,Hybrid,1.8,4,Auto,29000
+Toyota,Sienna AWD,2022,Minivan,Hybrid,2.5,4,Auto,54000
+Toyota,Venza AWD,2022,SUV,Hybrid,2.5,4,Auto,39000
+Chrysler,Pacifica Hybrid,2024,Minivan,Plug-in Hybrid Electric,3.6,6,Auto,51000
+Tesla,Model 3 Long Range Dual Motor,2024,Sedan,Electric,2.5,4,Auto,53000
+Tesla,Model 3 Standard Range Plus,2024,Sedan,Electric,2.5,4,Auto,48000
+Hyundai,IONIQ Electric,2024,Sedan,Electric,2.5,4,Auto,41000
+Tesla,Model Y Long Range Dual Motor,2024,SUV,Electric,2.4,4,Auto,55000
+Kia,e-Niro 64 kWh,2024,SUV,Electric,1.6,4,AM6,42000
+Ford,Mustang Mach-E ER RWD,2024,SUV,Electric,2.3,4,A10,52000
+Nissan,e-NV200 Evalia ,2024,Minivan,Electric,3.6,6,Auto,43000
+Ford,Escape Hybrid AWD,2024,SUV,Hybrid,2.5,4,AV,36000
+Honda,Accord Hybrid Sport/Touring,2024,Sedan,Hybrid,2,4,AV,34000
+Nissan,Altima AWD,2024,Sedan,Hybrid,2.5,4,AV,28000
+Toyota,Camry Hybrid LE,2024,Sedan,Hybrid,2.5,4,AV6,31000
+Toyota,Crown AWD,2024,Sedan,Hybrid,2.5,4,AV,47000
+Toyota,Highlander Hybrid AWD,2024,SUV,Hybrid,2.5,4,AV,46000
+Toyota,RAV4 Hybrid AWD ,2024,SUV,Hybrid,2.5,4,AV,35000
+Toyota,Sienna Hybrid,2024,Minivan,Hybrid,2.5,4,AV,37000
+Toyota,Venza AWD,2024,SUV,Hybrid,2.5,4,AV,33000

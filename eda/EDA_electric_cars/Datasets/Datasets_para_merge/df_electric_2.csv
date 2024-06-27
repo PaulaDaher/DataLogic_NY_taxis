@@ -1,0 +1,14 @@
+Brand,Model,model_year,vehicle_class,vehicle_type,range_km,plug_type,price_euro
+Tesla,Model 3 Long Range Dual Motor,2024,Sedan,Electric,450,Type 2 CCS,55480
+Tesla,Model 3 Standard Range Plus,2024,Sedan,Electric,310,Type 2 CCS,46380
+Hyundai,IONIQ Electric,2024,Liftback,Electric,250,Type 2 CCS,34459
+Tesla,Model Y Long Range Dual Motor,2024,SUV,Electric,425,Type 2 CCS,58620
+Tesla,Model 3 Long Range Performance,2024,Sedan,Electric,435,Type 2 CCS,61480
+Kia,e-Niro 64 kWh,2024,SUV,Electric,370,Type 2 CCS,38105
+Tesla,Model Y Long Range Performance,2024,SUV,Electric,410,Type 2 CCS,65620
+Ford,Mustang Mach-E ER RWD,2024,SUV,Electric,450,Type 2 CCS,54475
+Nissan,e-NV200 Evalia ,2024,SPV,Electric,190,Type 1 CHAdeMO,33246
+Ford,Mustang Mach-E ER AWD,2024,SUV,Electric,430,Type 2 CCS,62900
+Kia,e-Niro 39 kWh,2024,SUV,Electric,235,Type 2 CCS,34400
+Ford,Mustang Mach-E SR AWD,2024,SUV,Electric,340,Type 2 CCS,54000
+Ford,Mustang Mach-E SR RWD,2024,SUV,Electric,360,Type 2 CCS,46900
