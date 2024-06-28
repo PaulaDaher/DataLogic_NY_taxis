@@ -1,10 +1,10 @@
-# `<h1 align=left>` DATA LOGIC / NYC Taxis & Carbon Emission `</h1>`
+# <h1 align=left> DATA LOGIC / NYC Taxis & Carbon Emission </h1>
 
 <p align="center">
 <img src="images\datalogic banner.png" height=230>
 </p>
 
-# `<h3 align=left>`**`EQUIPO DE TRABAJO`**`</h3>`
+# <h3 align=left>**EQUIPO DE TRABAJO** </h3>
 
 - **Juan Carlos Garzón Rodríguez**  |  Científico de datos (Scrum manager)
 - **José Santos Iparraguirre Mancino**  |  Ingeniero de Datos
@@ -12,7 +12,7 @@
 - **Paula Daher**  |  Analista de Datos
 - **Jesus Felipe Sepulveda Alvarez**  |  Analista de Datos
 
-`</br></br>`
+</br></br>
 
 # ÍNDICE
 
@@ -30,14 +30,14 @@
 - [Bibliografía complementaria](#bibliografía-complementaria)
 - [Contacto](#contacto)
 
-`</br></br>`
+</br></br>
 
 # RESUMEN
 
 Durante este proyecto, realizaremos un análisis de los datos acerca del movimiento de los taxis amarillos en la ciudad de Nueva York en el distrito de Manhattan en el periodo 2022 - 2024. A partir de los resultados de nuestro análisis, presentaremos un informe a una empresa de buses que busca invertir en una nueva flota eléctrica de vehículos. Le informaremos tanto en la zona, cómo en el horario en el cuál le será más rentable desplegar su flota de vehículos eléctricos, basándonos en los datos históricos, y además le ofreceremos posibles tendencias futuras del mercado basadas en predicciones dadas por modelos de Machine Learning.
 Además, facilitaremos la toma de decisión de la empresa ofreciendo posibles opciones de vehículos eléctricos, teniendo en consideración los mejores de ellos, y los que además están posibilitados para operar cómo taxis en la ciudad de Nueva York.
 
-`</br></br>`
+</br></br>
 
 # DESCRIPCIÓN DEL PROYECTO
 
@@ -45,13 +45,13 @@ Además, facilitaremos la toma de decisión de la empresa ofreciendo posibles op
 Utilizando análisis avanzados y modelos predictivos, proporcionamos soluciones que optimizan la eficiencia operativa, reducen la huella de carbono, promueven la innovación ambiental mediante el desarrollo de modelos de negocio que además de lo anteriormente mencionado, incrementan las ganancias de las empresas.
 
 En respuesta a la creciente necesidad de sostenibilidad y eficiencia operativa en el transporte urbano de Nueva York, nuestra empresa consultora presenta una **propuesta analítica para algunas posibles implementaciones de vehículos eléctricos (VE) en la flota de transporte de pasajeros**. Este proyecto estratégico se enfoca en proporcionar la información adecuada para que la empresa que nos contactó tenga las estrategias y/o oportunidades para tomar las mejores decisiones, fundamentadas con datos. Cómo consecuencia de las mismas, en la ciudad habrá una reducción de emisiones contaminantes y en las calles los niveles de ruido disminuirán.
-`</br>`
+</br>
 
 <p align="left">
 <img src="images\portada taxi.png" height=180>
 </p>
 
-`</br></br>`
+</br></br>
 
 # OBJETIVOS
 
@@ -59,7 +59,7 @@ Nuestra misión es informar a las empresas para que tomen decisiones adecuadas y
 Para complementar nuestro análisis, decidimos sumar posibles vehículos eléctricos en los cuáles la empresa puede invertir para crear su nueva flota. Los mismos fueron elegidos prudentemente teniendo en especial consideración a aquellos vehículos que tienen permitido operar cómo taxis en la ciudad de Nueva York.
 Con todo lo anteriormente mencionado, mediante una visualización clara de los datos, le **ofreceremos la solución más óptima posible en cuanto a la tasa inversión : beneficio**. Proporcionaremos recomendaciones estratégicas basadas en insights precisos, optimizando la eficiencia operativa y reduciendo la huella ambiental. 
 
-`</br></br>`
+</br></br>
 
 # ALCANCE DEL PROYECTO
 
@@ -75,7 +75,7 @@ Tendremos en cuenta también las estaciones de servicio que disponen de carga el
 
 - ❌ **Fuera de nuestro alcance**: No nos encargamos del diseño ni de la fabricación de vehículos eléctricos, ni de asesoría legal detallada sobre regulaciones específicas. No abordaremos cambios estructurales en la infraestructura urbana, cómo tampoco la gestión operativa diaria de la flota de vehículos eléctricos, refiriendo con esto último a la asignación de conductores y mantenimiento rutinario. Además, no se realizará un análisis exhaustivo de impactos socioeconómicos amplios en la comunidad o la fuerza laboral como parte de este proyecto.
  
-`</br></br>`
+</br></br>
 
 # FUENTES DE DATOS
 
@@ -92,7 +92,7 @@ Método de obtención: Web Scraping.
 
 > *Si quieres saber más de la selección de datasets puedes visitar: [Motivo de elección de datasets](eleccion_datasets.md)*
 
-`</br></br>`
+</br></br>
 
 # ARQUITECTURA DEL PROYECTO
 
@@ -100,7 +100,7 @@ Método de obtención: Web Scraping.
 
 <img src="https://img.shields.io/badge/Python-black?style=flat&logo=python" height="25"> <img src="https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas" height="25"> <img src="https://img.shields.io/badge/Numpy-black?style=flat&logo=Numpy" height="25"> <img src="https://img.shields.io/badge/ScikitLearn-black?style=flat&logo=Scikit-Learn" height="25"> <img src="https://img.shields.io/badge/FastAPI-black?style=flat&logo=fastapi" height="25"> <img src="https://img.shields.io/badge/BeautifulSoup-black?style=flat&logo=coffeescript" height="25"> <img src="https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi" height="25"><img src="https://img.shields.io/badge/Google%20cloud-black?style=flat&logo=Google%20cloud" height="25"> <img src="https://img.shields.io/badge/Big%20query-black?style=flat&logo=big%20query" height="25"> <img src="https://img.shields.io/badge/Cloud%20functions-black?style=flat&logo=cloud%20functions" height="25">
 
-# `<h3 align=left>`**`PYTHON`**`</h3>`
+# <h3 align=left>**PYTHON**</h3>
 
 - Lenguaje de programación altamente flexible y fácil de aprender, lo que lo hace ideal para la manipulación de datos, el análisis y el desarrollo de modelos de machine learning.Cuenta con una amplia gama de bibliotecas especializadas para diversas tareas, facilitando un desarrollo rápido y eficiente.
 - Librerías a utilizar:
@@ -110,7 +110,7 @@ Método de obtención: Web Scraping.
   - **FastAPI:** Facilita el desarrollo de APIs rápidas y seguras para exponer modelos y servicios de datos.
   - **Scikit-Learn:** Facilita el desarrollo, entrenamiento y evaluación de modelos de machine learning.Proporciona herramientas simples y eficientes para la minería de datos y el análisis de datos.
 
-# `<h3 align=left>`**`GOOGLE CLOUD PLATAFORM (GCP)`**`</h3>`
+# <h3 align=left>**GOOGLE CLOUD PLATAFORM (GCP)**</h3>
 
 - GCP ofrece soluciones escalables y de alto rendimiento que pueden manejar grandes volúmenes de datos y complejas consultas de análisis. Proporciona una integración fluida entre sus servicios, facilitando la construcción de pipelines de datos eficientes.
 - Servicios a utilizar:
@@ -119,7 +119,7 @@ Método de obtención: Web Scraping.
   - **BigQuery:** Utilizado para almacenar y analizar grandes volúmenes de datos, aprovechando su capacidad de procesamiento masivo y sus capacidades de consulta SQL. Proporciona consultas rápidas y eficientes sobre grandes conjuntos de datos.
   - **Cloud Functions:** Facilita la automatización de tareas de ETL, permitiendo la limpieza, transformación y carga de datos de manera eficiente. Permite ejecutar funciones en respuesta a eventos específicos o programados, asegurando un flujo de datos continuo y actualizado.
 
-# `<h3 align=left>`**`POWER BI`**`</h3>`
+# <h3 align=left>**POWER BI**</h3>
 
 - Proporciona herramientas potentes para crear visualizaciones interactivas y paneles de control interactivos.
 - Conecta directamente con BigQuery, permitiendo aprovechar las capacidades de análisis y procesamiento de datos en tiempo real.
@@ -157,7 +157,7 @@ Power BI se conectará directamente a BigQuery para la creación de paneles inte
 <img src="images\arquitectura.png" height=290>
 </p>
 
-`</br></br>`
+</br></br>
 
 # RIESGOS DEL PROYECTO
 
@@ -170,11 +170,11 @@ Los principales riesgos en el proyecto de implementación de vehículos eléctri
 - Es importante señalar que **eventos atípicos**, como los ocurridos en el año 2020 debido a la pandemia, pueden alterar los análisis predictivos y los resultados esperados.
 
 **Mitigar estos riesgos requiere enfoques rigurosos en la gestión de datos, validación continua de modelos, cumplimiento normativo e integración efectiva de nuevas tecnologías, garantizando así resultados confiables y relevantes.*
-`</br></br>`
+</br></br>
 
 # METODOLOGÍA DE TRABAJO
 
-# `<h3 align=left>`**`SCRUM`**`</h3>`
+# <h3 align=left>**SCRUM**</h3>
 
 Desde la consultora abordaremos este proyecto en particular con la **metodología Scrum**. Scrum propone un **marco de trabajo ágil** a través del cual podemos abordar problemas complejos adaptativos a la vez que se entregan productos de forma eficiente y creativa con el máximo valor. Así, Scrum es una metodología que ayuda a los equipos a colaborar y realizar un trabajo de alto impacto. La metodología Scrum proporciona un** plan de valores, roles y pautas para ayudar al equipo a concentrarse en la iteración y la mejora continua en proyectos complejos**.
 
@@ -191,17 +191,17 @@ Desde la consultora abordaremos este proyecto en particular con la **metodologí
 > **CD>** Científico de datos
 > **AD>** Analista de datos
 
-`</br></br>`
+</br></br>
 
 # KEY PERFORMANCE INDICATOR
 
-# `<h3 align=left>`**`☁️ KPI #1 Cantidad de viajes`**`</h3>`
+# <h3 align=left>**☁️ KPI #1 Cantidad de viajes**</h3>
 
 ### Aumentar la cantidad de viajes totales en un 15% con respecto al semestre anterior.
 
 🧮 **Calculo**: Tasa de viajes = [(Suma de viajes totales semestre anterior anterior - Suma de viajes totales semestre actual) / Suma de viajes totales semestre anterior] * 100 
 
-# `<h3 align=left>`**`🔊 KPI #2 Flota de taxis`**`</h3>`
+# <h3 align=left>**🔊 KPI #2 Flota de taxis**</h3>
 
 ### Sumar un vehículo a la flota de taxis eléctricos cada año.
 
@@ -209,13 +209,13 @@ Desde la consultora abordaremos este proyecto en particular con la **metodologí
 
 🧮 **Calculo**: Dinero disponible para reinvertir = (Suma de facturación anual total de todos los taxis / Número de taxis de la flota) * 0.15
 
-# `<h3 align=left>`**`💸 KPI #3 Variabilidad de ingresos`**`</h3>`
+# <h3 align=left>**💸 KPI #3 Variabilidad de ingresos**</h3>
 
 ### Incrementar los ingresos anualmente en un 5% con respecto al año anterior.
 
 🧮 **Calculo**: Tasa de variación de ingresos = [(Ingresos totales año anterior - ingresos totales del año actual) / ingresos totales del año anterior] * 100
 
-`</br></br>`
+</br></br>
 
 # BIBLIOGRAFÍA COMPLEMENTARIA
 
@@ -225,7 +225,7 @@ Conciencia corporativa ambiental:
 - [Why sustainability is crucial for corporate strategy?](https://www.weforum.org/agenda/2022/06/why-sustainability-is-crucial-for-corporate-strategy/)
 - [Beneficios empresa medio ambiente](https://www.up-spain.com/blog/beneficios-empresa-medio-ambiente/)
 
-`</br></br>`
+</br></br>
 
 # CONTACTO
 
