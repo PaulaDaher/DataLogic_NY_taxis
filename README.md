@@ -175,7 +175,7 @@ Los productos finales fueron embebidos en nuestra app desarrollada con Streamlit
 </br>
 
 <p align="left">
-<img src="images\arquitectura1.png" height=400>
+<img src="images\arquitectura1.png" height=600>
 </p>
 
 </br></br>
