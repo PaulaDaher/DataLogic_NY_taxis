@@ -15,11 +15,14 @@ images = {
     "Metodología del Trabajo - SCRUM": "./streamlit/images/Scrum.png"
 }
 
-# Crear botones para cada imagen
+# Crear columnas para los botones
+columns = st.columns(len(images))
+
+# Crear botones para cada imagen en columnas
 selected_image = None
-for image_name in images.keys():
-    if st.button(image_name):
-        selected_image = images[image_name]
+for col, (image_name, image_path) in zip(columns, images.items()):
+    if col.button(image_name):
+        selected_image = image_path
 
 # Mostrar la imagen seleccionada
 if selected_image:
