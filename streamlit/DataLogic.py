@@ -46,7 +46,7 @@ with st.container():
         {"nombre": "Mateo Tagliaferro", "imagen": "./streamlit/images/mateo.png", "linkedin": "https://www.linkedin.com/in/mateo-tagliaferro-49702a268/", "rol": "Data Scientist", "email": "mateotagliaferro9@gmail.com"},
         {"nombre": "Santos Iparraguirre", "imagen": "./streamlit/images/santos.png", "linkedin": "https://www.linkedin.com/in/santos-iparraguirre-b738a82b3/", "rol": "Data Engineer", "email": "santosiparraguirrem@gmail.com"},
         {"nombre": "Paula Daher", "imagen": "./streamlit/images/pau.png", "linkedin": "https://www.linkedin.com/in/poldajer/", "rol": "Data Analyst", "email": "pauladaher050@gmail.com"},
-        {"nombre": "Juan Carlos Garzón Rodriguez", "imagen": "./streamlit/images/juan.png", "linkedin": "linkedin.com/in/juan-carlos-garzón-rodriguez-94457460 ", "rol": "Data Scientist", "email": " juankgarzon1@gmail.com"},
+        {"nombre": "Juan Carlos Garzón Rodriguez", "imagen": "./streamlit/images/juan.png", "linkedin": "https://linkedin.com/in/juan-carlos-garzón-rodriguez-94457460 ", "rol": "Data Scientist", "email": " juankgarzon1@gmail.com"},
         {"nombre": "Jesús Felipe Sepulveda", "imagen": "./streamlit/images/felipe.png", "linkedin": "https://www.linkedin.com/in/jesus-felipe-sepulveda-alvarez-21684a115/", "rol": "Data Analyst", "email": "jhesuafelipe24@gmail.com"}
     ]
 
