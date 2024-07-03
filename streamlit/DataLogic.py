@@ -14,7 +14,7 @@ with st.container():
 with st.container():
     # st.markdown("<h1 style='text-align: center;'>Somos Data Logic</h1>", unsafe_allow_html=True)
     st.markdown("<h2 style='text-align: center;'>Creamos herramientas de inteligencia de negocios para aplicar a tu empresa</h2>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center;'>Somos apasionados por la tecnología y la innovación. Nos especializados en proyectos de Ciencia de Datos</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center;'>Somos apasionados por la tecnología y la innovación. Nos especializados en proyectos de Ciencia de Datos.</p>", unsafe_allow_html=True)
 
 # Servicios
 with st.container():
@@ -24,7 +24,6 @@ with st.container():
     st.markdown("- 📊 **Análisis de Datos**: Transformamos tus datos en insights accionables.")
     st.markdown("- 📈 **Visualización de Datos**: Creamos dashboards interactivos y visualizaciones personalizadas.")
     st.markdown("- 🤖 **Modelos de Machine Learning**: Desarrollamos e implementamos modelos de aprendizaje automático para ayudar en tus decisiones futuras.")
-        # st.markdown("- **Consultoría en Tecnología**: Asesoramiento en la implementación de soluciones tecnológicas.")
 
 # Por qué elegirnos
 with st.container():
@@ -43,11 +42,11 @@ with st.container():
 
     # Datos de los miembros del equipo
     miembros = [
-        {"nombre": "Mateo Tagliaferro", "imagen": "./streamlit/images/mateo.png", "linkedin": "https://www.linkedin.com/in/mateo-tagliaferro-49702a268/", "rol": "Data Scientist", "email": "mateotagliaferro9@gmail.com"},
-        {"nombre": "Santos Iparraguirre", "imagen": "./streamlit/images/santos.png", "linkedin": "https://www.linkedin.com/in/santos-iparraguirre-b738a82b3/", "rol": "Data Engineer", "email": "santosiparraguirrem@gmail.com"},
+        {"nombre": "Jesús Felipe Sepulveda", "imagen": "./streamlit/images/felipe.png", "linkedin": "https://www.linkedin.com/in/jesus-felipe-sepulveda-alvarez-21684a115/", "rol": "Data Analyst", "email": "jhesuafelipe24@gmail.com"},
         {"nombre": "Paula Daher", "imagen": "./streamlit/images/pau.png", "linkedin": "https://www.linkedin.com/in/poldajer/", "rol": "Data Analyst", "email": "pauladaher050@gmail.com"},
-        {"nombre": "Juan Carlos Garzón Rodriguez", "imagen": "./streamlit/images/juan.png", "linkedin": "https://linkedin.com/in/juan-carlos-garzón-rodriguez-94457460 ", "rol": "Data Scientist", "email": " juankgarzon1@gmail.com"},
-        {"nombre": "Jesús Felipe Sepulveda", "imagen": "./streamlit/images/felipe.png", "linkedin": "https://www.linkedin.com/in/jesus-felipe-sepulveda-alvarez-21684a115/", "rol": "Data Analyst", "email": "jhesuafelipe24@gmail.com"}
+        {"nombre": "Santos Iparraguirre", "imagen": "./streamlit/images/santos.png", "linkedin": "https://www.linkedin.com/in/santos-iparraguirre-b738a82b3/", "rol": "Data Engineer", "email": "santosiparraguirrem@gmail.com"},
+        {"nombre": "Mateo Tagliaferro", "imagen": "./streamlit/images/mateo.png", "linkedin": "https://www.linkedin.com/in/mateo-tagliaferro-49702a268/", "rol": "Data Scientist", "email": "mateotagliaferro9@gmail.com"},
+        {"nombre": "Juan Carlos Garzón Rodriguez", "imagen": "./streamlit/images/juan.png", "linkedin": "https://linkedin.com/in/juan-carlos-garzón-rodriguez-94457460 ", "rol": "Data Scientist", "email": " juankgarzon1@gmail.com"}
     ]
 
     cols = st.columns(5)  # Crear 5 columnas

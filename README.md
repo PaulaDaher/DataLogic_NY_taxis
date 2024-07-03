@@ -113,7 +113,7 @@ Tendremos en cuenta también las estaciones de servicio que disponen de carga el
 
 ## STACK TECNOLÓGICO
 
-<img src="https://img.shields.io/badge/Python-black?style=flat&logo=python" height="25"> <img src="https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas" height="25"> <img src="https://img.shields.io/badge/Numpy-black?style=flat&logo=Numpy" height="25"> <img src="https://img.shields.io/badge/ScikitLearn-black?style=flat&logo=Scikit-Learn" height="25"> <img src="https://img.shields.io/badge/FastAPI-black?style=flat&logo=fastapi" height="25"> <img src="https://img.shields.io/badge/BeautifulSoup-black?style=flat&logo=coffeescript" height="25"> <img src="https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi" height="25"><img src="https://img.shields.io/badge/Google%20cloud-black?style=flat&logo=Google%20cloud" height="25"> <img src="https://img.shields.io/badge/Big%20query-black?style=flat&logo=big%20query" height="25"> <img src="https://img.shields.io/badge/Cloud%20functions-black?style=flat&logo=cloud%20functions" height="25">
+<img src="https://img.shields.io/badge/Python-black?style=flat&logo=python" height="25"> <img src="https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas" height="25"> <img src="https://img.shields.io/badge/Numpy-black?style=flat&logo=Numpy" height="25"> <img src="https://img.shields.io/badge/ScikitLearn-black?style=flat&logo=Scikit-Learn" height="25"> <img src="https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi" height="25"><img src="https://img.shields.io/badge/Google%20cloud-black?style=flat&logo=Google%20cloud" height="25"> <img src="https://img.shields.io/badge/Big%20query-black?style=flat&logo=big%20query" height="25"> <img src="https://img.shields.io/badge/Cloud%20functions-black?style=flat&logo=cloud%20functions" height="25">
 
 # <h3 align=left>**PYTHON**</h3>
 
@@ -147,7 +147,8 @@ Tendremos en cuenta también las estaciones de servicio que disponen de carga el
 ⛏️ **Extracción de datos de las fuentes arriba descriptas:**
 En este proyecto, realizamos web scraping en el sitio web oficial de la Comisión de Taxis y Limusinas de la Ciudad de Nueva York para recopilar archivos Parquet con datos históricos de viajes de taxis amarillos correspondientes al periodo 2022-2024. Complementamos nuestro conjunto de datos con información sobre autos eléctricos, su autonomía, eficiencia y costos operativos.
 
-🔍 **EDA:**En el Análisis Exploratorio de Datos, cargamos y verificamos los datos para realizar un resumen estadístico, identificar valores nulos, y visualizar las distribuciones de variables clave. Analizamos patrones temporales anuales y correlaciones entre variables para evaluar relaciones como la posible influencia de los niveles de CO y niveles de decibeles en el uso de taxis. También identificamos anomalías en los datos para garantizar su calidad.
+🔍 **EDA:** 
+En el Análisis Exploratorio de Datos, cargamos y verificamos los datos para realizar un resumen estadístico, identificar valores nulos, y visualizar las distribuciones de variables clave. Analizamos patrones temporales anuales y correlaciones entre variables para evaluar relaciones como la posible influencia de los niveles de CO y niveles de decibeles en el uso de taxis. También identificamos anomalías en los datos para garantizar su calidad.
 
 > **Si quieres saber más sobre el proceso EDA realizado, puedes dirigirte al siguiente link o bien analizar los notebooks respectivos: [EDA](eda/eda.md)*
 
