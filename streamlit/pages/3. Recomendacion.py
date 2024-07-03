@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 # Cargar datos
-autos_electricos = pd.read_csv("./datasets/df_electric_cars.csv")
+autos_electricos = pd.read_csv("./streamlit/datasets/df_electric_cars.csv")
 
 # Renombrar columnas
 renombrar_columnas = {

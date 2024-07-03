@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title='DataLogic', page_icon='🚕', layout='wide')
 
 with st.container():
-    portada = Image.open('./images/datalogic_banner.png')
+    portada = Image.open('./streamlit/images/datalogic_banner.png')
     st.image(portada, use_column_width=True)
 
 # Presentación
@@ -29,7 +29,7 @@ with st.container():
         # st.markdown("- **Consultoría en Tecnología**: Asesoramiento en la implementación de soluciones tecnológicas.")
 
     with col2:
-        imagen_servicios = Image.open('./images/analisis.png')
+        imagen_servicios = Image.open('./streamlit/images/analisis.png')
         st.image(imagen_servicios, width=280)
 
 # Por qué elegirnos
@@ -45,7 +45,7 @@ with st.container():
         """)
     
     with col2:
-        imagen_elegir = Image.open('./images/inteligencia.png')
+        imagen_elegir = Image.open('./streamlit/images/inteligencia.png')
         st.image(imagen_elegir, width=200)
 
 # Contacto equipo
@@ -54,11 +54,11 @@ with st.container():
 
     # Datos de los miembros del equipo
     miembros = [
-        {"nombre": "Mateo Tagliaferro", "imagen": "./images/mateo.png", "linkedin": "https://www.linkedin.com/in/mateo-tagliaferro-49702a268/", "rol": "Data Scientist", "email": "mateo@datalogic.com"},
-        {"nombre": "Santos Iparraguirre", "imagen": "./images/santos.png", "linkedin": "https://www.linkedin.com/in/santos-iparraguirre-b738a82b3/", "rol": "Data Engineer", "email": "santos@datalogic.com"},
-        {"nombre": "Paula Daher", "imagen": "./images/pau.png", "linkedin": "https://www.linkedin.com/in/poldajer/", "rol": "Data Analyst", "email": "paula@datalogic.com"},
-        {"nombre": "Juan Carlos Garzón Rodriguez", "imagen": "./images/juan.png", "linkedin": "https://www.linkedin.com/in/miembro4", "rol": "Data Scientist", "email": "juan@datalogic.com"},
-        {"nombre": "Jesús Felipe Sepulveda", "imagen": "./images/felipe.png", "linkedin": "https://www.linkedin.com/in/jesus-felipe-sepulveda-alvarez-21684a115/", "rol": "Data Analyst", "email": "felipe@datalogic.com"}
+        {"nombre": "Mateo Tagliaferro", "imagen": "./streamlit/images/mateo.png", "linkedin": "https://www.linkedin.com/in/mateo-tagliaferro-49702a268/", "rol": "Data Scientist", "email": "mateo@datalogic.com"},
+        {"nombre": "Santos Iparraguirre", "imagen": "./streamlit/images/santos.png", "linkedin": "https://www.linkedin.com/in/santos-iparraguirre-b738a82b3/", "rol": "Data Engineer", "email": "santos@datalogic.com"},
+        {"nombre": "Paula Daher", "imagen": "./streamlit/images/pau.png", "linkedin": "https://www.linkedin.com/in/poldajer/", "rol": "Data Analyst", "email": "paula@datalogic.com"},
+        {"nombre": "Juan Carlos Garzón Rodriguez", "imagen": "./streamlit/images/juan.png", "linkedin": "https://www.linkedin.com/in/miembro4", "rol": "Data Scientist", "email": "juan@datalogic.com"},
+        {"nombre": "Jesús Felipe Sepulveda", "imagen": "./streamlit/images/felipe.png", "linkedin": "https://www.linkedin.com/in/jesus-felipe-sepulveda-alvarez-21684a115/", "rol": "Data Analyst", "email": "felipe@datalogic.com"}
     ]
 
     cols = st.columns(5)  # Crear 5 columnas
@@ -71,19 +71,3 @@ with st.container():
             st.markdown(f"<p style='text-align: center;'>{miembro['rol']}</p>", unsafe_allow_html=True)
             st.markdown(f"<p style='text-align: center;'><a href='{miembro['linkedin']}' target='_blank'>LinkedIn</a></p>", unsafe_allow_html=True)
             st.markdown(f"<p style='text-align: center;'><a href='mailto:{miembro['email']}'>{miembro['email']}</a></p>", unsafe_allow_html=True)
-
-# Contacto empresa
-with st.container():
-    st.markdown("## **Contacto**", unsafe_allow_html=True)
-        # Imagen de contacto con estilo para reducir tamaño y centrar
-    st.markdown(
-        """
-        <div style='text-align: center;'>
-            <img src='./images/contactanos.png' style='width: 20%;'>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-    st.markdown("<p style='text-align: center;'>Para consultas y más información, contáctanos en:</p>", unsafe_allow_html=True)
-    st.markdown("<h3 style='text-align: center;'><a href='mailto:grupo.datalogic@gmail.com'>grupo.datalogic@gmail.com</a></h3>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center;'>Estamos aquí para ayudarte a llevar tu empresa al siguiente nivel.</p>", unsafe_allow_html=True)
