@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 # Función para cargar los datos
 @st.cache_data
 def load_future_predictions():
-    return pd.read_csv('./datasets/modelo_arima.csv')
+    return pd.read_csv('./streamlit/datasets/modelo_arima.csv')
 
 @st.cache_data
 def load_historical_data():
-    return pd.read_csv('./datasets/base_arima.csv', index_col=0, parse_dates=True)
+    return pd.read_csv('./streamlit/datasets/base_arima.csv', index_col=0, parse_dates=True)
 
 # Cargar los datos
 future_predictions = load_future_predictions()
