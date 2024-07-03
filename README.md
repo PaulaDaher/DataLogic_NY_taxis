@@ -1,4 +1,4 @@
-# <h1 align=left> DATA LOGIC / NYC Taxis & Carbon Emission </h1>
+# <h1 align='center'> DATA LOGIC / NYC Taxis & Carbon Emission </h1>
 
 <p align="center">
 <img src="images\datalogic banner.png" height=230>
@@ -79,14 +79,29 @@ Tendremos en cuenta también las estaciones de servicio que disponen de carga el
 
 # FUENTES DE DATOS
 
-- **Taxis:** Nuestra principal fuente de datos viene dada por el TLC, que son las siglas de Comisión de taxi y limusinas de la ciudad de Nueva York. Es la agencia responsable de la concesión de licencias y la regulación de los taxis con medallón amarillo, los vehículos de alquiler, las furgonetas de cercanías y los vehículos de para tránsito de la ciudad de Nueva York.   
-[Link](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)  
-Método de obtención: Web Scraping.
-- **contaminacion_sonora:** dataset con información sobre la contaminación sonora en la ciudad de NY. [Link](https://zenodo.org/records/3966543)Método de obtención: Descarga del archivo .csv (datos estáticos)
-- **contaminacion_aire:** dataset con información sobre la calidad del aire en la ciudad de NY. [Link](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r/about_data)Método de obtención: Descarga del archivo .csv (datos estáticos)
-- **Datos complementarios:** diferentes datasets referentes a la autonomía, costo y eficiencia operativa de los diferentes tipos de combustible que utilizan los vehículos.
+### Principales
+
+- **Viajes de los taxis:** Nuestra principal fuente de datos viene dada por el TLC, que son las siglas de Comisión de taxi y limusinas de la ciudad de Nueva York. Es la agencia responsable de la concesión de licencias y la regulación de los taxis con medallón amarillo, los vehículos de alquiler, las furgonetas de cercanías y los vehículos de para tránsito de la ciudad de Nueva York. [Link a la página](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)  
+
+  Método de obtención: Web Scraping.
+
+- **Autos eléctricos:** diferentes datasets referentes a la autonomía, costo y eficiencia operativa sobre autos eléctricos e híbridos.
+
   Fuente: Recolección de diferentes sitios y almacenamiento en nuestro Drive.
+
   Método de obtención: Descarga de los archivos (datos estáticos)
+
+### Complementarios
+
+- **Contaminación sonora:** dataset con información sobre la contaminación sonora en la ciudad de NY. [Link a la página](https://zenodo.org/records/3966543)
+
+  Método de obtención: Descarga del archivo .csv (datos estáticos)
+
+- **Contaminación del aire:** dataset con información sobre la calidad del aire en la ciudad de NY. [Link a la página](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r/about_data)
+
+  Método de obtención: Descarga del archivo .csv (datos estáticos)
+
+
 
 </br>
 
@@ -98,17 +113,17 @@ Método de obtención: Web Scraping.
 
 ## STACK TECNOLÓGICO
 
-<img src="https://img.shields.io/badge/Python-black?style=flat&logo=python" height="25"> <img src="https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas" height="25"> <img src="https://img.shields.io/badge/Numpy-black?style=flat&logo=Numpy" height="25"> <img src="https://img.shields.io/badge/ScikitLearn-black?style=flat&logo=Scikit-Learn" height="25"> <img src="https://img.shields.io/badge/FastAPI-black?style=flat&logo=fastapi" height="25"> <img src="https://img.shields.io/badge/BeautifulSoup-black?style=flat&logo=coffeescript" height="25"> <img src="https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi" height="25"><img src="https://img.shields.io/badge/Google%20cloud-black?style=flat&logo=Google%20cloud" height="25"> <img src="https://img.shields.io/badge/Big%20query-black?style=flat&logo=big%20query" height="25"> <img src="https://img.shields.io/badge/Cloud%20functions-black?style=flat&logo=cloud%20functions" height="25">
+<img src="https://img.shields.io/badge/Python-black?style=flat&logo=python" height="25"> <img src="https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas" height="25"> <img src="https://img.shields.io/badge/Numpy-black?style=flat&logo=Numpy" height="25"> <img src="https://img.shields.io/badge/ScikitLearn-black?style=flat&logo=Scikit-Learn" height="25"> <img src="https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi" height="25"><img src="https://img.shields.io/badge/Google%20cloud-black?style=flat&logo=Google%20cloud" height="25"> <img src="https://img.shields.io/badge/Big%20query-black?style=flat&logo=big%20query" height="25"> <img src="https://img.shields.io/badge/Cloud%20functions-black?style=flat&logo=cloud%20functions" height="25">
 
 # <h3 align=left>**PYTHON**</h3>
 
-- Lenguaje de programación altamente flexible y fácil de aprender, lo que lo hace ideal para la manipulación de datos, el análisis y el desarrollo de modelos de machine learning.Cuenta con una amplia gama de bibliotecas especializadas para diversas tareas, facilitando un desarrollo rápido y eficiente.
-- Librerías a utilizar:
+- Lenguaje de programación altamente flexible y fácil de aprender, lo que lo hace ideal para la manipulación de datos, el análisis y el desarrollo de modelos de machine learning. Cuenta con una amplia gama de bibliotecas especializadas para diversas tareas, facilitando un desarrollo rápido y eficiente.
+- Principales librerías a utilizar:
 
   - **Pandas:** Ofrece estructuras de datos y herramientas de manipulación de datos muy potentes y flexibles. Facilita el análisis y la preparación de los datos antes de su procesamiento posterior.
-  - **BeautifulSoup:** Permite extraer datos de sitios web de manera eficiente y estructurada.
-  - **FastAPI:** Facilita el desarrollo de APIs rápidas y seguras para exponer modelos y servicios de datos.
-  - **Scikit-Learn:** Facilita el desarrollo, entrenamiento y evaluación de modelos de machine learning.Proporciona herramientas simples y eficientes para la minería de datos y el análisis de datos.
+  - **Selenium:** Permite extraer datos de sitios web de manera eficiente y estructurada.
+  - **Streamlit:** Facilita el desarrollo de una interfaz web rápida y segura para exponer modelos y servicios de datos.
+  - **Scikit-Learn:** Facilita el desarrollo, entrenamiento y evaluación de modelos de machine learning. Proporciona herramientas simples y eficientes para la minería de datos y el análisis de datos.
 
 # <h3 align=left>**GOOGLE CLOUD PLATAFORM (GCP)**</h3>
 
@@ -130,14 +145,15 @@ Método de obtención: Web Scraping.
 ## FLUJO DE DATOS
 
 ⛏️ **Extracción de datos de las fuentes arriba descriptas:**
-En este proyecto, realizamos web scraping en el sitio web oficial de la Comisión de Taxis y Limusinas de la Ciudad de Nueva York para recopilar archivos Parquet con datos históricos de viajes de taxis amarillos correspondientes al periodo 2016-2019. Complementamos nuestro conjunto de datos con información histórica sobre las concentraciones de monóxido de carbono (CO) en Manhattan obtenida a través de la API de OpenWeather, como tambien en la API de zenodo.org que nos permitió enriquecer el análisis de los patrones de movilidad en relación con los factores ambientales.
+En este proyecto, realizamos web scraping en el sitio web oficial de la Comisión de Taxis y Limusinas de la Ciudad de Nueva York para recopilar archivos Parquet con datos históricos de viajes de taxis amarillos correspondientes al periodo 2022-2024. Complementamos nuestro conjunto de datos con información sobre autos eléctricos, su autonomía, eficiencia y costos operativos.
 
-🔍 **EDA:**En el Análisis Exploratorio de Datos, cargamos y verificamos los datos de viajes de taxis amarillos, niveles de monóxido de carbono (CO) y niveles en decibelios relacionado al sonido en Nueva York. Realizamos un resumen estadístico, identificamos valores nulos, y visualizamos las distribuciones de variables clave como la distancia del viaje,  la concentración de CO y niveles en decibelios. Analizamos patrones temporales anuales y correlaciones entre variables para evaluar relaciones como la posible influencia de los niveles de CO y niveles de decibeles en el uso de taxis. También identificamos anomalías en los datos para garantizar su calidad.
+🔍 **EDA:** 
+En el Análisis Exploratorio de Datos, cargamos y verificamos los datos para realizar un resumen estadístico, identificar valores nulos, y visualizar las distribuciones de variables clave. Analizamos patrones temporales anuales y correlaciones entre variables para evaluar relaciones como la posible influencia de los niveles de CO y niveles de decibeles en el uso de taxis. También identificamos anomalías en los datos para garantizar su calidad.
 
 > **Si quieres saber más sobre el proceso EDA realizado, puedes dirigirte al siguiente link o bien analizar los notebooks respectivos: [EDA](eda/eda.md)*
 
 🧹 **Transformación y limpieza de datos**
-En el proceso de transformación y limpieza de datos para este proyecto, se realizaron acciones clave para preparar los conjuntos de datos de viajes de taxis amarillos,  niveles de monóxido de carbono (CO) y niveles en decibelios en Manhattan entre 2016 y 2019. Se corrigieron formatos de fecha, se manejaron valores nulos eliminando filas o imputando valores, y se identificaron y trataron valores atípicos que podrían afectar el análisis. Además, se crearon nuevas variables derivadas en se normalizaron datos numéricos para mantener la consistencia y prepararlos para análisis posteriores. La eliminación de columnas irrelevantes también se llevó a cabo para enfocarse en los datos más relevantes para  aseguran la calidad y coherencia de los datos.
+En el proceso de transformación y limpieza de datos para este proyecto, se realizaron acciones clave para preparar los conjuntos de datos. Se corrigieron formatos de fecha, se manejaron valores nulos eliminando filas o imputando valores, y se identificaron y trataron valores atípicos que podrían afectar el análisis. Además, se crearon nuevas variables derivadas en se normalizaron datos numéricos para mantener la consistencia y prepararlos para análisis posteriores. La eliminación de columnas irrelevantes también se llevó a cabo para enfocarse en los datos más relevantes para  aseguran la calidad y coherencia de los datos.
 
 📥 **Ingesta de Datos:**
 Los datos previamente tratados y los obtenidos por webscraping de viajes de taxis, datos de zonas y servicios, así como datos de contaminación del aire y sonora se almacenarán en Cloud Storage como archivos en estado bruto.
@@ -151,10 +167,16 @@ Los datos limpios y procesados se cargarán en BigQuery, donde estarán disponib
 📈 **Visualización y Reportes:**
 Power BI se conectará directamente a BigQuery para la creación de paneles interactivos y reportes visuales. Esto permitirá a los stakeholders explorar y analizar los datos de manera intuitiva, identificar tendencias, y tomar decisiones informadas basadas en los resultados del análisis.
 
+🤖 **Machine Learning:**
+Desarrollamos modelos de Machine Learning para predecir la demanda futura para los viajes en taxis, un sistema de recomendación para invertir en diferentes autos eléctricos, y un chatbot para realizar preguntas sobre los mismos.
+
+🎨 **Streamlit:**
+Los productos finales fueron embebidos en nuestra app desarrollada con Streamlit, disponibilizando toda la información que necesita el cliente en el mismo sitio.
+
 </br>
 
 <p align="left">
-<img src="images\arquitectura.png" height=290>
+<img src="images\arquitectura1.png" height=600>
 </p>
 
 </br></br>
@@ -169,7 +191,7 @@ Los principales riesgos en el proyecto de implementación de vehículos eléctri
 - La **escalabilidad y eficiencia computacional** representan desafíos adicionales, dado que el manejo ineficiente de grandes volúmenes de datos puede ralentizar el análisis y aumentar los costos.
 - Es importante señalar que **eventos atípicos**, como los ocurridos en el año 2020 debido a la pandemia, pueden alterar los análisis predictivos y los resultados esperados.
 
-**Mitigar estos riesgos requiere enfoques rigurosos en la gestión de datos, validación continua de modelos, cumplimiento normativo e integración efectiva de nuevas tecnologías, garantizando así resultados confiables y relevantes.*
+*Mitigar estos riesgos requiere enfoques rigurosos en la gestión de datos, validación continua de modelos, cumplimiento normativo e integración efectiva de nuevas tecnologías, garantizando así resultados confiables y relevantes.*
 </br></br>
 
 # METODOLOGÍA DE TRABAJO

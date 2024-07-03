@@ -1,0 +1,8 @@
+Brand,Model,model_year,vehicle_class,vehicle_type,charge_time_minutes,battery_life_km,range_km,engine_size_L,engine_cylinder,transmission_type,combined_wh_km,price_dollars
+Tesla,Model 3 Long Range Dual Motor,2024,Sedan,Electric,27,192000,450,2.5,4,Auto,128,53000
+Tesla,Model 3 Standard Range Plus,2024,Sedan,Electric,27,192000,480,2.5,4,Auto,139,48000
+Hyundai,IONIQ Electric,2024,Sedan,Electric,17,160000,295,2.5,4,Auto,159,41000
+Tesla,Model Y Long Range Dual Motor,2024,SUV,Electric,27,192000,505,2.4,4,Auto,141,55000
+Kia,E-Niro,2024,SUV,Electric,41,150000,370,1.6,4,AM6,140,42000
+Ford,Mustang Mach-E ER RWD,2024,SUV,Electric,47,160000,480,2.3,4,A10,152,52000
+Nissan,e-NV200 Evalia ,2024,Minivan,Electric,40,150000,190,3.6,6,Auto,59,43000
