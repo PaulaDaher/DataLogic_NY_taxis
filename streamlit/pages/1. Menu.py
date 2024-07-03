@@ -12,7 +12,7 @@ images = {
     "Alcances": "./streamlit/images/alcances.png",
     "Fuentes": "./streamlit/images/fuentes.png",
     "Arquitecturas-Tecnologias": "./streamlit/images/arquitectura(2).png",
-    "Metodología del Trabajo - SCRUM": "./streamlit/images/gantt(1).png"
+    "Metodología del Trabajo - SCRUM": "./streamlit/images/Scrum.png"
 }
 
 # Crear botones para cada imagen
