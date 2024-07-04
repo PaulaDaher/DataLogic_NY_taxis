@@ -1,7 +1,7 @@
 # <h1 align='center'> DATA LOGIC / NYC Taxis & Carbon Emission </h1>
 
 <p align="center">
-<img src="images\datalogic banner.png" height=230>
+<img src="images\datalogic_banner.png" height=230>
 </p>
 
 # <h3 align=left>**EQUIPO DE TRABAJO** </h3>
@@ -34,17 +34,9 @@
 
 # RESUMEN
 
-Durante este proyecto, realizaremos un análisis de los datos acerca del movimiento de los taxis amarillos en la ciudad de Nueva York en el distrito de Manhattan en el periodo 2022 - 2024. A partir de los resultados de nuestro análisis, presentaremos un informe a una empresa de buses que busca invertir en una nueva flota eléctrica de vehículos. Le informaremos tanto en la zona, cómo en el horario en el cuál le será más rentable desplegar su flota de vehículos eléctricos, basándonos en los datos históricos, y además le ofreceremos posibles tendencias futuras del mercado basadas en predicciones dadas por modelos de Machine Learning.
-Además, facilitaremos la toma de decisión de la empresa ofreciendo posibles opciones de vehículos eléctricos, teniendo en consideración los mejores de ellos, y los que además están posibilitados para operar cómo taxis en la ciudad de Nueva York.
+Durante este proyecto, realizaremos un análisis de los datos acerca del movimiento de taxis amarillos en la ciudad de Nueva York en el distrito de Manhattan en el periodo 2022 - 2024. A partir de los resultados de nuestro análisis, presentaremos un informe a una empresa de buses que busca invertir en una nueva flota eléctrica de vehículos. Le informaremos tanto en la zona, cómo en los días y horarios en el cuál le será más rentable desplegar su flota de vehículos eléctricos, basándonos en los datos históricos, y además le ofreceremos posibles tendencias futuras del mercado basadas en predicciones dadas por modelos de Machine Learning.
+Además, facilitaremos la toma de decisión de la empresa ofreciendo un sistema de recomendación para elegir entre opciones de vehículos eléctricos, teniendo en consideración los mejores de ellos, y los que además están posibilitados para operar cómo taxis en la ciudad de Nueva York.
 
-</br></br>
-
-# DESCRIPCIÓN DEL PROYECTO
-
-🌳🤝📈 En **DataLogic** realizamos trabajos de **ciencia de datos** para ayudar a las empresas a **transicionar hacia estrategias sostenibles y respetuosas con el medio ambiente**. 
-Utilizando análisis avanzados y modelos predictivos, proporcionamos soluciones que optimizan la eficiencia operativa, reducen la huella de carbono, promueven la innovación ambiental mediante el desarrollo de modelos de negocio que además de lo anteriormente mencionado, incrementan las ganancias de las empresas.
-
-En respuesta a la creciente necesidad de sostenibilidad y eficiencia operativa en el transporte urbano de Nueva York, nuestra empresa consultora presenta una **propuesta analítica para algunas posibles implementaciones de vehículos eléctricos (VE) en la flota de transporte de pasajeros**. Este proyecto estratégico se enfoca en proporcionar la información adecuada para que la empresa que nos contactó tenga las estrategias y/o oportunidades para tomar las mejores decisiones, fundamentadas con datos. Cómo consecuencia de las mismas, en la ciudad habrá una reducción de emisiones contaminantes y en las calles los niveles de ruido disminuirán.
 </br>
 
 <p align="left">
@@ -53,12 +45,25 @@ En respuesta a la creciente necesidad de sostenibilidad y eficiencia operativa e
 
 </br></br>
 
+# DESCRIPCIÓN DEL PROYECTO
+
+🌳🤝📈 En **DataLogic** realizamos trabajos de **ciencia de datos** para ayudar a las empresas a **transicionar hacia estrategias sostenibles y respetuosas con el medio ambiente**. 
+Utilizando análisis avanzados y modelos predictivos, proporcionamos soluciones que optimizan la eficiencia operativa y que promueven la innovación ambiental mediante el desarrollo de herramientas de negocio que además de lo anteriormente mencionado, incrementan las ganancias de las empresas.
+
+Presentaremos una **herramienta de inteligencia de negocio** enfocada en proporcionar la información adecuada para que la empresa que nos contactó tenga las estrategias y/o oportunidades para tomar las mejores decisiones fundamentadas con datos y disminuyendo riesgos. Cómo consecuencia de las mismas, en la ciudad habrá una reducción de emisiones contaminantes y en las calles los niveles de ruido disminuirán.
+
+</br></br>
+
 # OBJETIVOS
 
-Nuestra misión es informar a las empresas para que tomen decisiones adecuadas y responsables que beneficien tanto a sus operaciones como al planeta, es por ello que le proporcionaremos a la empresa de transporte de pasajeros una **visión del comportamiento del mercado de los taxis en la ciudad de Nueva York en base a los datos históricos**. También le ofreceremos una **predicción del posible comportamiento futuro del mercado**. 
-Para complementar nuestro análisis, decidimos sumar posibles vehículos eléctricos en los cuáles la empresa puede invertir para crear su nueva flota. Los mismos fueron elegidos prudentemente teniendo en especial consideración a aquellos vehículos que tienen permitido operar cómo taxis en la ciudad de Nueva York.
-Con todo lo anteriormente mencionado, mediante una visualización clara de los datos, le **ofreceremos la solución más óptima posible en cuanto a la tasa inversión : beneficio**. Proporcionaremos recomendaciones estratégicas basadas en insights precisos, optimizando la eficiencia operativa y reduciendo la huella ambiental. 
+- Proporcionaremos una **visión del comportamiento del mercado de los taxis en la ciudad de Nueva York en base a los datos históricos**. 
+- Ofreceremos una **predicción del posible comportamiento futuro del mercado**. 
+- Para complementar el análisis, sumaremos un **sistema de recomendación basado en vehículos eléctricos** en los cuáles la empresa puede invertir para crear su nueva flota. Los mismos fueron elegidos prudentemente teniendo en especial consideración a aquellos vehículos que tienen permitido operar cómo taxis en la ciudad de Nueva York.
+- Con todo lo anteriormente mencionado, mediante una visualización clara de los datos, le **ofreceremos la solución más óptima posible en cuanto a la tasa inversión : beneficio**. Proporcionaremos recomendaciones estratégicas basadas en insights precisos, optimizando la eficiencia operativa y reduciendo la huella ambiental.   
 
+</br>  
+
+> ✨ Todos nuestros objetivos se ven plasmados en nuestro producto final: [Streamlit](https://datalogic-taxis-ny.streamlit.app/)
 </br></br>
 
 # ALCANCE DEL PROYECTO
@@ -102,18 +107,14 @@ Tendremos en cuenta también las estaciones de servicio que disponen de carga el
   Método de obtención: Descarga del archivo .csv (datos estáticos)
 
 
-
-</br>
-
-> *Si quieres saber más de la selección de datasets puedes visitar: [Motivo de elección de datasets](eleccion_datasets.md)*
-
 </br></br>
 
 # ARQUITECTURA DEL PROYECTO
 
 ## STACK TECNOLÓGICO
 
-<img src="https://img.shields.io/badge/Python-black?style=flat&logo=python" height="25"> <img src="https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas" height="25"> <img src="https://img.shields.io/badge/Numpy-black?style=flat&logo=Numpy" height="25"> <img src="https://img.shields.io/badge/ScikitLearn-black?style=flat&logo=Scikit-Learn" height="25"> <img src="https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi" height="25"><img src="https://img.shields.io/badge/Google%20cloud-black?style=flat&logo=Google%20cloud" height="25"> <img src="https://img.shields.io/badge/Big%20query-black?style=flat&logo=big%20query" height="25"> <img src="https://img.shields.io/badge/Cloud%20functions-black?style=flat&logo=cloud%20functions" height="25">
+<img src="https://img.shields.io/badge/Python-black?style=flat&logo=python" height="25"> <img src="https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas" height="25"> <img src="https://img.shields.io/badge/Numpy-black?style=flat&logo=Numpy" height="25"> <img src="https://img.shields.io/badge/ScikitLearn-black?style=flat&logo=Scikit-Learn" height="25"> <img src="https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi" height="25"> <img src="https://img.shields.io/badge/Google%20cloud-black?style=flat&logo=Google%20cloud" height="25"> <img src="https://img.shields.io/badge/Big%20query-black?style=flat&logo=big%20query" height="25"> <img src="https://img.shields.io/badge/Cloud%20functions-black?style=flat&logo=cloud%20functions" height="25"> <img src="https://img.shields.io/badge/gpt2-black?style=flat&logo=gpt2" height="25"> <img src="https://img.shields.io/badge/Selenium-black?style=flat&logo=selenium" height="25"> <img src="https://img.shields.io/badge/Streamlit-black?style=flat&logo=streamlit" height="25">
+
 
 # <h3 align=left>**PYTHON**</h3>
 
@@ -176,7 +177,7 @@ Los productos finales fueron embebidos en nuestra app desarrollada con Streamlit
 </br>
 
 <p align="left">
-<img src="images\arquitectura1.png" height=600>
+<img src="images\arquitectura.png" height=400>
 </p>
 
 </br></br>
