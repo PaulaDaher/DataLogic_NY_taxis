@@ -29,15 +29,19 @@ marcas_ordenadas = ['Todas'] + sorted(autos_electricos['Marca'].unique())
 st.set_page_config(page_title="Recomendación", page_icon="🚕", layout="wide")
 
 with st.container():
-    st.title("Recomendación de Taxis Eléctricos")
-    st.write("Este es un sistema de recomendación para implementar una flota de taxis eléctricos con vehiculos disponibles para operar")
-    st.write("A continuacion elija la cantidad de taxis que desea indagar y la marca")
+    st.title("Recomendación de modelos de autos")
+    st.markdown("<h3>Este es un sistema de recomendación de modelos de autos eléctricos para la implementación de una flota de taxis.</h3>", unsafe_allow_html=True)
+    st.markdown("""
+                A continuación ingrese la cantidad de autos que desea tener en su flota de taxis y su marca de preferencia.  
+                Como respuesta obtendrá recomendaciones sobre modelos en los cuales invertir, información sobre sus costos y un retorno de la inversión a realizar.""")
+    
+    st.markdown("<br></br>", unsafe_allow_html=True)
 
     # Cuadro de texto para seleccionar la cantidad de taxis (opcional)
-    cantidad_taxis = st.number_input('Cantidad de Taxis a Consultar', min_value=1, max_value=2000, value=1)
+    cantidad_taxis = st.number_input('**Cantidad de Taxis a adquirir**', min_value=1, max_value=2000, value=1)
 
     # Seleccionar una marca
-    seleccionada = st.selectbox('Selecciona una Marca', options=marcas_ordenadas)
+    seleccionada = st.selectbox('**Selecciona una Marca**', options=marcas_ordenadas)
 
     # Botón para validar y realizar la consulta
     if st.button('Consultar'):
