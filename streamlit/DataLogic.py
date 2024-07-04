@@ -12,7 +12,6 @@ with st.container():
 
 # Presentación
 with st.container():
-    # st.markdown("<h1 style='text-align: center;'>Somos Data Logic</h1>", unsafe_allow_html=True)
     st.markdown("<h2 style='text-align: center;'>Creamos herramientas de inteligencia de negocios para aplicar a tu empresa</h2>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center;'>Somos apasionados por la tecnología y la innovación. Nos especializados en proyectos de Ciencia de Datos.</p>", unsafe_allow_html=True)
 

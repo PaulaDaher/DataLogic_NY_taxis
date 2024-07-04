@@ -22,15 +22,16 @@ renombrar_columnas = {
 }
 autos_electricos = autos_electricos.rename(columns=renombrar_columnas)
 
-# Obtener marcas ordenadas
-marcas_ordenadas = sorted(autos_electricos['Marca'].unique())
+# Obtener marcas ordenadas y agregar opción <Todas>
+marcas_ordenadas = ['Todas'] + sorted(autos_electricos['Marca'].unique())
 
 # Configuración de la página de Streamlit
 st.set_page_config(page_title="Recomendación de Taxis Eléctricos para la ciudad de New York", page_icon="-", layout="wide")
 
 with st.container():
     st.title("Recomendación de Taxis Eléctricos")
-    st.write("Este es un prototipo de recomendación de taxis eléctricos en la Ciudad de Nueva York.")
+    st.write("Este es un sistema de recomendación para implementar una flota de taxis eléctricos con vehiculos disponibles para operar")
+    st.write("A continuacion elija la cantidad de taxis que desea indagar y la marca")
 
     # Cuadro de texto para seleccionar la cantidad de taxis (opcional)
     cantidad_taxis = st.number_input('Cantidad de Taxis a Consultar', min_value=1, max_value=2000, value=1)
@@ -41,8 +42,12 @@ with st.container():
     # Botón para validar y realizar la consulta
     if st.button('Consultar'):
         if seleccionada and cantidad_taxis >= 1:
-            # Filtrar dataframe según la marca seleccionada
-            df_filtrado = autos_electricos[autos_electricos['Marca'] == seleccionada].copy()
+            # Filtrar dataframe según la marca seleccionada o todas
+            if seleccionada == 'Todas':
+                df_filtrado = autos_electricos.copy()
+            else:
+                df_filtrado = autos_electricos[autos_electricos['Marca'] == seleccionada].copy()
+            
             df_filtrado["Inversión"] = df_filtrado["Costo Unitario"] * cantidad_taxis
 
             # Calculo de ROI
@@ -68,15 +73,31 @@ with st.container():
             # Formatos de Columnas
             df_filtrado['Inversión'] = df_filtrado['Inversión'].apply(lambda x: f"${x:,.0f}")
             df_filtrado['Costo Unitario'] = df_filtrado['Costo Unitario'].apply(lambda x: f"${x:,.0f}")
+            df_filtrado['Costos Generales'] = df_filtrado['Costos Generales'].apply(lambda x: f"${x:,.0f}")
             df_filtrado['ROI (%)'] = df_filtrado['ROI (%)'].apply(lambda x: f"{x:.2%}")
 
-            # Reordenar columnas para mostrar y excluir 'Marca'
-            columnas_reordenadas = ['Modelo', 'Costo Unitario', 'Inversión', 'ROI (%)'] + [col for col in df_filtrado.columns if col not in ['Modelo', 'Costo Unitario', 'Inversión',  'ROI (%)']]
-            df_reordenado = df_filtrado[columnas_reordenadas]
-            df_reordenado = df_reordenado.drop(columns=['Marca'])
+            # Reordenar columnas para mostrar y excluir las no deseadas
+            columnas_reordenadas = ['Marca', 'Modelo', 'Clase vehiculo', 'Costo Unitario', 'Costos Generales', 'Inversión', 'ROI (%)']
 
-            # Mostrar la tabla con los modelos y columnas relacionadas
+            df_reordenado = df_filtrado[columnas_reordenadas]
+
+            # Ordenar el DataFrame por la columna 'ROI (%)' de menor a mayor
+            df_reordenado = df_reordenado.sort_values(by='ROI (%)')
+
+            # Aplicar estilos para centrar y poner en negrita los títulos de las columnas
+            df_reordenado_styled = df_reordenado.style.set_properties(**{
+                'text-align': 'center',
+            }).set_table_styles([{
+                'selector': 'th',
+                'props': [('font-weight', 'bold'), ('text-align', 'center')]
+            }])
+
+            # Mostrar la tabla con estilos aplicados
             st.write(f"Modelos de {seleccionada}:")
-            st.table(df_reordenado)
-        else:
-            st.write('Por favor, selecciona una marca y/o cantidad.')
+            st.dataframe(df_reordenado_styled)
+
+            # Mostrar la tabla con estilos aplicados
+            #st.write(f"Modelos de {seleccionada}:")
+            
+    else:
+        st.write('Por favor, selecciona una marca y/o cantidad.')
