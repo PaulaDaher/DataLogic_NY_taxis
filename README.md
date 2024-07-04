@@ -149,9 +149,7 @@ Tendremos en cuenta también las estaciones de servicio que disponen de carga el
 En este proyecto, realizamos web scraping en el sitio web oficial de la Comisión de Taxis y Limusinas de la Ciudad de Nueva York para recopilar archivos Parquet con datos históricos de viajes de taxis amarillos correspondientes al periodo 2022-2024. Complementamos nuestro conjunto de datos con información sobre autos eléctricos, su autonomía, eficiencia y costos operativos.
 
 🔍 **EDA:** 
-En el Análisis Exploratorio de Datos, cargamos y verificamos los datos para realizar un resumen estadístico, identificar valores nulos, y visualizar las distribuciones de variables clave. Analizamos patrones temporales anuales y correlaciones entre variables para evaluar relaciones como la posible influencia de los niveles de CO y niveles de decibeles en el uso de taxis. También identificamos anomalías en los datos para garantizar su calidad.
-
-> **Si quieres saber más sobre el proceso EDA realizado, puedes dirigirte al siguiente link o bien analizar los notebooks respectivos: [EDA](eda/eda.md)*
+En el Análisis Exploratorio de Datos, cargamos y verificamos los datos para realizar un resumen estadístico, identificar valores nulos, y visualizar las distribuciones de variables clave. Analizamos patrones temporales anuales y correlaciones entre variables para evaluar relaciones como la posible influencia de los niveles de CO y niveles de decibeles en el uso de taxis. También identificamos anomalías en los datos para garantizar su calidad.  
 
 🧹 **Transformación y limpieza de datos**
 En el proceso de transformación y limpieza de datos para este proyecto, se realizaron acciones clave para preparar los conjuntos de datos. Se corrigieron formatos de fecha, se manejaron valores nulos eliminando filas o imputando valores, y se identificaron y trataron valores atípicos que podrían afectar el análisis. Además, se crearon nuevas variables derivadas en se normalizaron datos numéricos para mantener la consistencia y prepararlos para análisis posteriores. La eliminación de columnas irrelevantes también se llevó a cabo para enfocarse en los datos más relevantes para  aseguran la calidad y coherencia de los datos.
@@ -177,7 +175,7 @@ Los productos finales fueron embebidos en nuestra app desarrollada con Streamlit
 </br>
 
 <p align="left">
-<img src="images\arquitectura.png" height=400>
+<img src="images\arquitectura.png" height=500>
 </p>
 
 </br></br>
