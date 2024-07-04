@@ -13,19 +13,11 @@ def load_model():
     url = f"https://storage.googleapis.com/{bucket_name}/{object_name}"
     
     response = requests.get(url)
-        
-    # # Crear un objeto de tipo archivo en memoria
-    # file_object = io.BytesIO(response.content)
-        
-    # # Cargar el modelo y el tokenizer directamente desde el objeto en memoria
-    # model, tokenizer = pickle.load(file_object)
 
     # Crear un objeto de tipo archivo en memoria
     file_object = pickle.loads(response.content)
     
     return file_object
-
-    #return model, tokenizer
 
 # Cargar el modelo
 model, tokenizer = load_model()
@@ -97,13 +89,15 @@ def generate_detailed_response(prompt, model, tokenizer):
     return detailed_response
 
 # Interfaz de Streamlit
-st.title("Car Information Generator")
+st.title("Generador de información sobre autos eléctricos")
 
-prompt = st.text_input("Enter a car brand and model:")
+st.write("Este es un chat para generar información sobre las características de los autos recomendados")
 
-if st.button("Generate Information"):
+prompt = st.text_input("Ingresa la marca y el nombre del auto:")
+
+if st.button("Generar Información"):
     if prompt:
         response = generate_detailed_response(prompt, model, tokenizer)
         st.write(response)
     else:
-        st.write("Please enter a car brand and model.")
+        st.write("Por favor ingresa una marca y nombre de auto.")

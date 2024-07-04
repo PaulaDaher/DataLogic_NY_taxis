@@ -12,8 +12,8 @@ with st.container():
 
 # Dashboard
 embed_code = """
-<iframe title="Dashboard_NY_taxis" width="1280" height="720" src="https://app.powerbi.com/view?r=eyJrIjoiYjFiY2RlNjYtZGFjZC00YmJmLTlmOGYtMWQ2ZWYyMWUxYTMxIiwidCI6IjJhMTY3ZDI3LTBhMmEtNGM0MC04N2I5LTY4ZjQzODA5MDQ3MiJ9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="Dashboard_NY_taxis" width="1400" height="720" src="https://app.powerbi.com/view?r=eyJrIjoiYjFiY2RlNjYtZGFjZC00YmJmLTlmOGYtMWQ2ZWYyMWUxYTMxIiwidCI6IjJhMTY3ZDI3LTBhMmEtNGM0MC04N2I5LTY4ZjQzODA5MDQ3MiJ9" frameborder="0" allowFullScreen="true"></iframe>
 """
 
 # Usar st.components.v1.html para renderizar el iframe
-components.html(embed_code, width=1280, height=720)
+components.html(embed_code, width=1400, height=720)
