@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit.components.v1 as components
 
 # Título e ícono de la página
-st.set_page_config(page_title='DashBoard', page_icon='✨', layout='wide')
+st.set_page_config(page_title='DashBoard', page_icon='📊', layout='wide')
 
 # Header
 with st.container():

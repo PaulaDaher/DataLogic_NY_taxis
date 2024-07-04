@@ -4,6 +4,9 @@ import re
 import requests
 import io
 
+# Configuración de la página de Streamlit
+st.set_page_config(page_title="Chat", page_icon="💬", layout="wide")
+
 @st.cache_resource
 # Funcion para cargar el modelo
 def load_model():

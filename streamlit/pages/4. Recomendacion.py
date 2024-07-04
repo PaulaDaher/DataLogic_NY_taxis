@@ -26,7 +26,7 @@ autos_electricos = autos_electricos.rename(columns=renombrar_columnas)
 marcas_ordenadas = ['Todas'] + sorted(autos_electricos['Marca'].unique())
 
 # Configuración de la página de Streamlit
-st.set_page_config(page_title="Recomendación de Taxis Eléctricos para la ciudad de New York", page_icon="-", layout="wide")
+st.set_page_config(page_title="Recomendación", page_icon="🚕", layout="wide")
 
 with st.container():
     st.title("Recomendación de Taxis Eléctricos")

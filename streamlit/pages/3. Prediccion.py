@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# Título e ícono de la página
+st.set_page_config(page_title='Predicción', page_icon='📈', layout='wide')
+
 # Función para cargar los datos
 @st.cache_data
 def load_future_predictions():

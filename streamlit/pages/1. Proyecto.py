@@ -3,15 +3,18 @@ from PIL import Image
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# Título e ícono de la página
+st.set_page_config(page_title='Proyecto', page_icon='📋', layout='wide')
+
 # Título de la aplicación
-st.title('Menú')
+st.markdown("<h1 style='text-align: center;'>Visión General del Proyecto</h1>", unsafe_allow_html=True)
 
 # Diccionario con las imágenes y sus nombres
 images = {
     "Objetivos": "./streamlit/images/img_objetivos.png",
     "Alcances": "./streamlit/images/alcances.png",
     "Fuentes": "./streamlit/images/fuentes.png",
-    "Arquitecturas-Tecnologias": "./streamlit/images/arquitectura(2).png",
+    "Arquitectura": "./streamlit/images/Arquitectura.png",
     "Metodología SCRUM": "./streamlit/images/Scrum.png"
 }
 

@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Título e ícono de la página
-st.set_page_config(page_title='DataLogic', page_icon='🚕', layout='wide')
+st.set_page_config(page_title='DataLogic', page_icon='💼', layout='wide')
 
 with st.container():
     portada = Image.open('./streamlit/images/datalogic_banner.png')
