@@ -94,7 +94,7 @@ def generate_detailed_response(prompt, model, tokenizer):
 # Interfaz de Streamlit
 st.title("Generador de información sobre autos eléctricos")
 
-st.write("Este es un chat para generar información sobre las características de los autos recomendados")
+st.markdown("<h4>Chatea con nuestro bot para obtener más información sobre el auto que elegiste.</h4>", unsafe_allow_html=True)
 
 prompt = st.text_input("Ingresa la marca y el nombre del auto:")
 

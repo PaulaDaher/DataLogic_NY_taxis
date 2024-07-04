@@ -27,7 +27,7 @@ st.markdown("<h1 style='text-align: center;'>Predicción de la demanda de taxis 
 st.markdown("<h3 style='text-align: center;'>Periodo: Mayo de 2024 - Noviembre 2024</h3>", unsafe_allow_html=True)
 
 # Visualizar las predicciones futuras
-fig, ax = plt.subplots(figsize=(10, 6))
+fig, ax = plt.subplots(figsize=(9, 4))
 ax.plot(df, label='Histórico')
 ax.plot(pd.date_range(start=df.index[-1], periods=180, freq='D'), future_predictions, label='Predicciones Futuras', color='green')
 ax.set_xlabel('Fecha')
